@@ -19,7 +19,7 @@ else {
 }
 }
 
-function currentLine()
+function currentLine(katzDeliLine)
 {
   if (katzDeliLine.length===0)
   {
