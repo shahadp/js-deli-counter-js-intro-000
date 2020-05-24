@@ -31,6 +31,7 @@ function currentLine(katzDeliLine)
     {
       queueName=`${queueName}, ${i+1}. ${katzDeliLine[i]}`
     }
+    console.log(queueName)
     return queueName
   }
 }
