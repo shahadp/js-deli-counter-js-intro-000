@@ -29,7 +29,7 @@ function currentLine(katzDeliLine)
     let queueName='The line is currently: ';
     for (let i=0;i<katzDeliLine.length;i++)
     {
-      queueName=`${queueName} ${i+1}. ${katzDeliLine[i]},`
+      queueName=`${queueName} ${i+1}. ${katzDeliLine[i]}${i===katzDeliLine.length-1?'':','}`
     }
     console.log(queueName)
     return queueName
