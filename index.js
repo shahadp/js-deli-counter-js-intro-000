@@ -15,6 +15,6 @@ if (katzDeliLine.length===0)
 else {
   let selectPerson=katzDeliLine[0]
   katzDeliLine.shift()
-  return selectPerson
+  return `Currently Service ${selectPerson}.`
 }
 }
