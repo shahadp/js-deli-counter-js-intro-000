@@ -28,9 +28,9 @@ function currentLine(katzDeliLine)
   else {
     let queueName='The line is currently: ';
     for (let i=0;i<katzDeliLine.length;i++)
-    {       
-      queueName=`${queueName}, ${i+1}. ${katzDeliLine[i]}` 
-    } 
+    {
+      queueName=`${queueName}, ${i+1}. ${katzDeliLine[i]}`
+    }
     return queueName
   }
 }
