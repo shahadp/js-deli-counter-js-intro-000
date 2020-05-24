@@ -1,9 +1,9 @@
-function takeANumber(katzDeliLine, new_person_in_line)
+function takeANumber(katzDeliLine, newPersonInLine)
 {
-  let new_person_current_line=`Welcome, ${new_person_in_line}. You are number ${katzDeliLine.length+1} in line.`;
-  katzDeliLine.push(new_person_in_line);
-  console.log(new_person_current_line)
-  return new_person_current_line
+  let newPersonCurrentLine=`Welcome, ${newPersonInLine}. You are number ${katzDeliLine.length+1} in line.`;
+  katzDeliLine.push(newPersonInLine);
+  console.log(newPersonCurrentLine)
+  return newPersonCurrentLine
 }
 
 function nowServing(katzDeliLine)
