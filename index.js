@@ -18,3 +18,16 @@ else {
   return `Currently serving ${selectPerson}.`
 }
 }
+
+function currentLine()
+{
+  if (katzDeliLine.length===0)
+  {
+    return 'The line is currently empty.';
+  }
+  else {
+    let selectPerson=katzDeliLine[0]
+    katzDeliLine.shift()
+    return `Currently serving ${selectPerson}.`
+  }
+}
