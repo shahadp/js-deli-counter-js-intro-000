@@ -26,8 +26,11 @@ function currentLine(katzDeliLine)
     return 'The line is currently empty.';
   }
   else {
-    let selectPerson=katzDeliLine[0]
-    katzDeliLine.shift()
-    return `Currently serving ${selectPerson}.`
+    let queueName='The line is currently: ';
+    for (let i=0;i<katzDeliLine.length;i++)
+    {       
+      queueName=`${queueName}, ${i+1}. ${katzDeliLine[i]}` 
+    } 
+    return queueName
   }
 }
